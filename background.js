@@ -58,7 +58,7 @@ function injectScript(tabId, page) {
           if (titleElement && authorElement && linkElement) {
             const headline = {
               title: titleElement.textContent.trim(),
-              author: authorElement.textContent.trim(),
+              time: authorElement.textContent.trim(),
               link: linkElement.href,
             };
 
