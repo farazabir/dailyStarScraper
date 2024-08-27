@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Star Scraper",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html" 
+  },
+  "host_permissions": [
+    "https://www.thedailystar.net/*" 
+  ]
+}

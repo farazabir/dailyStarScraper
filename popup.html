@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Star</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="form-group">
+            <label for="startDate">Start Date</label>
+            <input type="date" class="form-control" id="startDate" required>
+        </div>
+        <div class="form-group">
+            <label for="endDate">End Date</label>
+            <input type="date" class="form-control" id="endDate" required>
+        </div>
+        <div class="form-group">
+            <label for="pageNumber">Page Number</label>
+            <input type="number" class="form-control" id="pageNumber" value="1" min="1">
+        </div>
+        <button id="inject" class="btn btn-primary">Start</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
